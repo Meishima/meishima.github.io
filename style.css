@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after,
+body,
+html {
+    margin: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+#background {
+    background-image: url(bg.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.timer {
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    left: 0;
+    width: 100%;
+}
+
+.months,
+.days,
+.hours,
+.minutes,
+.seconds {
+    background-color: wheat;
+    padding: 0.5em;
+    font-size: 2em;
+    line-height: 2.25em;
+    font-family: sans-serif;
+    display: inline;
+}
